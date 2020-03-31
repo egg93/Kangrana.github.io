@@ -1,3 +1,33 @@
+@charset "UTF-8";
+
+/* 폰트 */
+/* 서울 한강체 */
+@font-face{
+	font-family: "서울한강체";
+	src: url(./assets/fonts/SEOULHANGANGL.TTF) format('truetype');
+	font-weight: lighter;
+}
+@font-face{
+	font-family: "서울한강체";
+	src: url(./assets/fonts/SEOULHANGANGM.TTF) format('truetype');
+	font-weight: normal;
+}
+@font-face{
+	font-family: "서울한강 장체";
+	src: url(./assets/fonts/서울한강\ 장체L.TTF) format('truetype');
+	font-weight: lighter;
+}
+@font-face{
+	font-family: "서울한강 장체";
+	src: url(./assets/fonts/서울한강\ 장체M.TTF) format('truetype');
+	font-weight: normal;
+}
+/* 제주체 */
+@font-face{
+	font-family: "제주체";
+	src: url(./assets/fonts/JejuMyeongjo.ttf) format('truetype');
+}
+
 .icon-about img{
     max-width: 1.3em;
 }
